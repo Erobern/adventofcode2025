@@ -4,13 +4,13 @@ public class StringUtils {
 
     // very useful for debugging - you can display a 2d String array as a proper grid
     public static String get2DArrayPrint(String[][] matrix) {
-        String output = "";
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                output = output + (matrix[i][j]);
+        StringBuilder output = new StringBuilder();
+        for (String[] strings : matrix) {
+            for (String string : strings) {
+                output.append(string);
             }
-            output = output + "\n";
+            output.append("\n");
         }
-        return output;
+        return output.toString();
     }
 }

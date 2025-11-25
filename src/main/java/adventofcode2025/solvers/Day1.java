@@ -2,9 +2,6 @@ package adventofcode2025.solvers;
 
 import adventofcode2025.fileloaders.FileLoaders;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class Day1 {
