@@ -13,14 +13,11 @@ public class FileLoaders {
     public static List<String> loadInputIntoStringList(String input) {
         File file = getFileFromResource("puzzleinputs/" + input);
 
-        List<String> lines;
         try {
-            lines = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
+            return Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        return lines;
     }
 
     private static File getFileFromResource(String fileName) {
