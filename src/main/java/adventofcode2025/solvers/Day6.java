@@ -81,5 +81,3 @@ public class Day6 {
         return grandTotal.toString();
     }
 }
-// part 2 answers:
-// 55885565132

@@ -21,5 +21,8 @@ public class Main {
 
         System.out.println("Day6/Puzzle1: " + Day6.Puzzle1("Day6.txt"));
         System.out.println("Day6/Puzzle2: " + Day6.Puzzle2("Day6.txt"));
+
+        System.out.println("Day7/Puzzle1: " + Day7.Puzzle1("Day7.txt"));
+        System.out.println("Day7/Puzzle2: " + Day7.Puzzle2("Day7.txt"));
     }
 }
