@@ -183,10 +183,6 @@ public class Day9 {
                     untiledCoordinates.add(new Coordinate2D(x, y));
                 }
             }
-
-//            untiledCoordinates.removeIf(untiledCoordinate -> coordinateList.stream().noneMatch(coordinate2D ->
-//                    coordinate2D.x() >= untiledCoordinate.x() - 2 && coordinate2D.x() <= untiledCoordinate.x() + 2 &&
-//                            coordinate2D.y() >= untiledCoordinate.y() - 2 && coordinate2D.y() <= untiledCoordinate.y() + 2));
         }
 
         Long biggestArea = 0L;
@@ -237,5 +233,3 @@ public class Day9 {
     }
 
 }
-
-// answers: 84292710 (too low) 4518426800 (too high)4633717343
